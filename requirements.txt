@@ -1,0 +1,26 @@
+# Core dependencies
+torch>=2.0.0
+torchvision
+torchaudio
+
+# PyTorch Geometric and extensions
+# Note: Install PyG extensions using the following command for CPU:
+# pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cpu.html
+# For CUDA 11.8, replace +cpu with +cu118
+# For CUDA 12.1, replace +cpu with +cu121
+torch-geometric>=2.0.0
+
+# Scientific computing
+numpy>=1.19.0
+scipy>=1.5.0
+pandas>=1.0.0
+
+# Machine learning utilities
+scikit-learn>=0.23.0
+
+# Visualization
+matplotlib>=3.0.0
+
+# Note: After installing torch, run the following command to install PyG extensions:
+# For CPU: pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cpu.html
+# For CUDA: pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
